@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+background: #F4F4F4;
+}
+.wrapper{
+
+width: 80%;
+
+margin: 100px auto;
+}
+.wrapper h2{
+    
+text-align: center;
+    
+margin: 100px 0;
+    
+font-size: 40px;
+    
+font-weight: 400;
+}
+.main_content{
+
+display: flex;
+
+background: #fff;
+
+border-radius: 10px;
+
+overflow: hidden;
+
+/* border: 1px solid red; */
+
+box-shadow: -3px 5px 20px 5px #7c7c7c54;
+}
+.form{
+
+width: 50%;
+
+padding: 20px;
+}
+.form h1{
+    
+font-size: 45px;
+    
+font-weight: 400;
+    
+margin: 30px 0;
+}
+.form p{
+    
+/* margin: 30px 0; */
+    
+color: #666666;
+}
+.information{
+
+display: flex;
+
+justify-content: space-between;
+
+margin: 20px 0;
+}
+.address{
+
+}
+.information h3{
+
+color: #00000033;
+
+margin-bottom: 10px;
+}
+.information p{
+    
+}
+.image{
+
+width: 50%;
+}
+.image img{
+    
+width: 100%;
+}
+form{
+
+}
+form input{
+    
+border: none;
+    
+width: 100%;
+    
+border-bottom: 1px solid #666;
+    
+padding: 5px 0;
+    
+margin-bottom: 20px;
+    
+font-size: 17px;
+    
+font-weight: 400;
+border-color: #F4F4F4;;
+}
+form textarea{
+    
+border: navajowhite;
+    
+border-bottom: 1px solid #6666;
+    
+width: 100%;
+font-size: 17px;
+}
+form input:focus, form textarea:focus{
+    outline: none;
+    border-color: #666;
+}
+form input[type='submit']{
+    background-color: #e3b04b;
+    width: auto;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 30px 0;
+}
